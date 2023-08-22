@@ -1,0 +1,154 @@
+/* base setting --------------------------------- */
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* body setting --------------------------------- */
+body{
+    background-color: rgba(58, 58, 58, 0.887);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+/* header container ----------------------------- */
+.header{
+    background-color: black;
+    border: 3px solid white;
+    width: 75vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 5px 0;
+}
+/* h1 ------------------------------------------- */
+.title{
+    color: white;
+}
+/* sections container --------------------------- */
+.sections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+/* tiles container ------------------------------ */
+.letter-tiles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 2px dashed rgba(181, 181, 181, 0.475);
+    margin:5px 0;
+}
+/* letter container ----------------------------- */
+.letter-tile{
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(14, 170, 218);
+    border: 1px solid black;
+    box-shadow: 0 0 5px 2px;
+}
+.letter-tile-wrong{
+    background-color: rgb(238, 29, 29);
+}
+.letter-tile-correct{
+    background-color: rgb(27, 196, 27);
+}
+/* letter --------------------------------------- */
+.letter{
+    font-size: 3.5rem;
+}
+/* controls container --------------------------- */
+.controls{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+    width: 75vw;
+}
+/* reset button --------------------------------- */
+.resetBtn{
+    border: 1px solid black;
+    padding: 5px 10px;
+    font-weight: bold;
+    background-color: white;
+    color: rgb(238, 29, 29);
+    font-size: 1.5rem;
+}
+.resetBtn:hover{
+    background-color: rgb(238, 29, 29);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* start button --------------------------------- */
+.startBtn{
+    border: 1px solid black;
+    padding: 5px 10px;
+    background-color: white;
+    color: rgb(27, 196, 27);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.startBtn:hover{
+    background-color: rgb(27, 196, 27);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* submit button -------------------------------- */
+.submitBtn{
+    border: 1px solid black;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: white;
+    color: rgb(14, 170, 218);
+}
+.submitBtn:hover{
+    background-color: rgb(14, 170, 218);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* next button --------------------------------- */
+.nextBtn{
+    border: 1px solid black;
+    padding: 5px 10px;
+    font-weight: bold;
+    background-color: white;
+    color: rgb(148, 49, 202);
+    font-size: 1.5rem;
+}
+.nextBtn:hover{
+    background-color: rgb(148, 49, 202);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* input container ------------------------------ */
+.input{
+    margin: 10px;
+}
+/* input ---------------------------------------- */
+input{
+    font-size: 1.5rem;
+    width: 50vw;
+}
+/* hide class ----------------------------------- */
+.hide{
+    display: none;
+}
+
